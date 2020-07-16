@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
 }
@@ -46,6 +50,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #1D1D1D;
+    margin: 2px 0;
 }
 
 .cards__tags {
@@ -55,6 +60,7 @@
     font-size: 14px;
     line-height: 21px;
     color: #626262;
+    margin: 2px 0;
 }
 
 .cards__time {
@@ -64,4 +70,112 @@
     font-size: 13px;
     line-height: 21px;
     color: #1D1D1D;
+    margin: 2px 0;
 }
+
+.cards {
+    padding-bottom: 18px;
+    margin-bottom: 16px;
+}
+
+.footer {
+    background-color: #262626;
+}
+.footer .logo {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+
+.separator {
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.link-row {
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+.social p {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 0 0 17px 0;
+}
+
+.language-selector {
+    height: 40px;
+    background: #3B3B3B;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 16px;
+    margin-bottom: 33px;
+}
+
+select {
+    height: 100%;
+    margin-left: 16px;
+    width: 100%;
+    border: none;
+    background-color: inherit;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+option {
+    width: 100%;
+    background-color: inherit;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.footer-link-container {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.app-row {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.app-row img {
+    margin: 0 20px 0 20px;
+}
+
+.copyright-row {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.copyright-row p {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
