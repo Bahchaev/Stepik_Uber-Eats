@@ -1,0 +1,67 @@
+.header {
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search {
+    height: 48px;
+    border-bottom: solid 1px #757575;
+    opacity: 0.3;
+    margin-top: 32px;
+}
+
+.search input {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.main h1 {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.cards__header {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+
+.cards__tags {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.cards__time {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D;
+}
