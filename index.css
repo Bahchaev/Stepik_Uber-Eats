@@ -168,7 +168,7 @@ option {
     padding-bottom: 28px;
 }
 
-.copyright-row p {
+.copyright-row a {
     font-family: Roboto, serif;
     font-style: normal;
     font-weight: normal;
@@ -177,5 +177,25 @@ option {
     color: #FFFFFF;
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
 }
 
