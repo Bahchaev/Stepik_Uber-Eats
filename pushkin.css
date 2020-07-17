@@ -1,0 +1,282 @@
+body {
+    margin: 72px 0 0 0 ;
+}
+
+.is-flex {
+    display: flex;
+    justify-content: center;
+}
+
+/* BTN-UP */
+.btn-up {
+    position: fixed;
+    bottom: 24px;
+    right: 16px;
+}
+
+.anchor::before {
+    content: "";
+    display: block;
+    height: 72px;
+    margin: -72px 0 0;
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+    height: 72px;
+    margin-bottom: 32px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+.header .container,
+.header .row {
+    height: inherit;
+}
+
+.logo,
+.sign-in {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* MAIN */
+/* Pushkin-head-image */
+.pushkin-head {
+    background-image: url("img/pushkin/pushkin.svg");
+    background-position: center center;
+    background-size: cover;
+    height: 364px;
+}
+
+.head-card-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.head-card {
+    background-color: white;
+    height: 204px;
+}
+
+.head-card .row {
+    height: 100%;
+}
+
+.head-card .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-card .row .col {
+    height: 50%;
+
+}
+
+.head-card__header h1 {
+    text-align: center;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #1D1D1D;
+}
+
+.head-card_tags p {
+    text-align: center;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+}
+
+.head-card__times {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 32px;
+    background-color: black;
+    border-radius: 16px;
+}
+
+.head-card__times p {
+    margin: 0;
+    text-align: center;
+    vertical-align: center;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+.cards__header {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    margin: 2px 0;
+}
+
+.cards__tags {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    margin: 2px 0;
+}
+
+.cards__time {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D;
+    margin: 2px 0;
+}
+
+.cards {
+    padding-bottom: 18px;
+    margin-bottom: 16px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #262626;
+}
+.footer .logo {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+
+.separator {
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.link-row {
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+.social p {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 0 0 17px 0;
+}
+
+.language-selector-container {
+    height: 40px;
+    background: #3B3B3B;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 16px;
+    margin-bottom: 33px;
+}
+
+select {
+    height: 100%;
+    margin-left: 16px;
+    width: 100%;
+    border: none;
+    background-color: inherit;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footer-link-container {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.app-row {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.app-row img {
+    margin: 0 20px 0 20px;
+}
+
+.copyright-row {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.copyright-row a {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
