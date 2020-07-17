@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+<a name="top" class="anchor"></a>
+
+<!-- BTN-UP -->
+<div class="btn-up">
+    <a href="#top"><img src="img/btn-up.svg" alt="btn-up"></a>
+</div>
 
 <!-- HEADER -->
 <header class="header">
@@ -19,7 +25,7 @@
             </div>
             <div class="col-xs-6 sign-in">
                 <img src="img/sign-in.png" alt="sign-in" class="sign-in-button">
-                <img src="img/basket.png" alt="basket" class="basket-img">
+                <img src="img/basket.png" alt="basket" class="basket-img hidden-xs">
             </div>
         </div>
     </div>
@@ -28,7 +34,9 @@
 <!-- SEARCH -->
 <div class="search">
     <div class="container">
-        <!-- TODO: SEARCH -->
+        <div class="row bottom">
+            <input type="search" placeholder="Поиск по ресторанам и кухням">
+        </div>
     </div>
 </div>
 
@@ -40,74 +48,92 @@
         <div class="row">
             <!-- card-1 -->
             <div class="cards card-1 col-xs-12 col-sm-6 col-lg-4">
-                <img src="img/card-1.svg" alt="card-1">
-                <p class="cards__header">Макдоналдс — Газетный</p>
-                <p class="cards__tags">₽₽ • Бургеры</p>
-                <p class="cards__time">25 - 35 мин</p>
+                <a href="">
+                    <img src="img/card-1.svg" alt="card-1">
+                    <p class="cards__header">Макдоналдс — Газетный</p>
+                    <p class="cards__tags">₽₽ • Бургеры</p>
+                    <p class="cards__time">25 - 35 мин</p>
+                </a>
             </div>
 
             <!-- card-2 -->
             <div class="cards card-2 col-xs-12 col-sm-6 col-lg-4">
-                <img src="img/card-2.svg" alt="card-2">
-                <p class="cards__header">DimSum & Co — ЦДМ</p>
-                <p class="cards__tags">₽ • Японская • Китайская • Азиатская</p>
-                <p class="cards__time">40 - 50 мин</p>
+                <a href="">
+                    <img src="img/card-2.svg" alt="card-2">
+                    <p class="cards__header">DimSum & Co — ЦДМ</p>
+                    <p class="cards__tags">₽ • Японская • Китайская • Азиатская</p>
+                    <p class="cards__time">40 - 50 мин</p>
+                </a>
             </div>
 
             <!-- card-3 -->
             <div class="cards card-2 col-xs-12 col-sm-6 col-lg-4">
-                <img src="img/card-3.svg" alt="card-3">
-                <p class="cards__header">ДвижОК — Манежная</p>
-                <p class="cards__tags">₽ • Американская • Европейская</p>
-                <p class="cards__time">35 - 45 мин</p>
+                <a href="">
+                    <img src="img/card-3.svg" alt="card-3">
+                    <p class="cards__header">ДвижОК — Манежная</p>
+                    <p class="cards__tags">₽ • Американская • Европейская</p>
+                    <p class="cards__time">35 - 45 мин</p>
+                </a>
             </div>
 
             <!-- card-4 -->
             <div class="cards card-2 col-xs-12 col-sm-6 col-lg-4">
-                <img src="img/card-4.svg" alt="card-4">
-                <p class="cards__header">НЯ — NHA</p>
-                <p class="cards__tags">₽₽ • Вьетнамская</p>
-                <p class="cards__time">30 - 40 мин</p>
+                <a href="">
+                    <img src="img/card-4.svg" alt="card-4">
+                    <p class="cards__header">НЯ — NHA</p>
+                    <p class="cards__tags">₽₽ • Вьетнамская</p>
+                    <p class="cards__time">30 - 40 мин</p>
+                </a>
             </div>
 
             <!-- card-5 -->
             <div class="cards card-2 col-xs-12 col-sm-6 col-lg-4">
-                <img src="img/card-5.svg" alt="card-5">
-                <p class="cards__header">Точка Дзы — Цветной</p>
-                <p class="cards__tags">₽₽ • Вьетнамская</p>
-                <p class="cards__time">40 - 50 мин</p>
+                <a href="">
+                    <img src="img/card-5.svg" alt="card-5">
+                    <p class="cards__header">Точка Дзы — Цветной</p>
+                    <p class="cards__tags">₽₽ • Вьетнамская</p>
+                    <p class="cards__time">40 - 50 мин</p>
+                </a>
             </div>
 
             <!-- card-6 -->
             <div class="cards card-2 col-xs-12 col-sm-6 col-lg-4">
-                <img src="img/card-6.svg" alt="card-6">
-                <p class="cards__header">Cinnabon</p>
-                <p class="cards__tags">₽ • Выпечка • Десерты • Капкейки</p>
-                <p class="cards__time">25 - 35 мин</p>
+                <a href="">
+                    <img src="img/card-6.svg" alt="card-6">
+                    <p class="cards__header">Cinnabon</p>
+                    <p class="cards__tags">₽ • Выпечка • Десерты • Капкейки</p>
+                    <p class="cards__time">25 - 35 мин</p>
+                </a>
             </div>
 
             <!-- card-7 -->
             <div class="cards card-2 col-xs-12 col-sm-6 col-lg-4">
-                <img src="img/card-7.svg" alt="card-7">
-                <p class="cards__header">PIZZELOVE</p>
-                <p class="cards__tags">₽₽ • Пицца</p>
-                <p class="cards__time">15 - 25 мин</p>
+                <a href="">
+                    <img src="img/card-7.svg" alt="card-7">
+                    <p class="cards__header">PIZZELOVE</p>
+                    <p class="cards__tags">₽₽ • Пицца</p>
+                    <p class="cards__time">15 - 25 мин</p>
+                </a>
             </div>
 
             <!-- card-8 -->
             <div class="cards card-2 col-xs-12 col-sm-6 col-lg-4">
-                <img src="img/card-8.svg" alt="card-8">
-                <p class="cards__header">Zю кафе — Тверская</p>
-                <p class="cards__tags">₽₽ • Японская</p>
-                <p class="cards__time">25 - 35 мин</p>
+                <a href="">
+                    <img src="img/card-8.svg" alt="card-8">
+                    <p class="cards__header">Zю кафе — Тверская</p>
+                    <p class="cards__tags">₽₽ • Японская</p>
+                    <p class="cards__time">25 - 35 мин</p>
+                </a>
             </div>
 
             <!-- card-9 -->
             <div class="cards card-2 col-xs-12 col-sm-6 col-lg-4">
-                <img src="img/card-9.svg" alt="card-9">
-                <p class="cards__header">Bar BQ Cafe — Манежная</p>
-                <p class="cards__tags">₽₽₽ • Европейская</p>
-                <p class="cards__time">30 - 40 мин</p>
+                <a href="">
+                    <img src="img/card-9.svg" alt="card-9">
+                    <p class="cards__header">Bar BQ Cafe — Манежная</p>
+                    <p class="cards__tags">₽₽₽ • Европейская</p>
+                    <p class="cards__time">30 - 40 мин</p>
+                </a>
             </div>
         </div>
     </div>
@@ -130,11 +156,11 @@
         <div class="row link-row">
 
             <div class="col-xs-12 col-sm-4">
-                <div class="language-selector col-xs-7 col-sm-12 col-md-8">
+                <div class="language-selector-container col-xs-7 col-sm-12 col-md-8">
                     <img src="img/world.svg" alt="world-img">
-                    <select>
-                        <option>Русский</option>
-                        <option>Английский</option>
+                    <select class="language-selector">
+                        <option value="russian">Русский</option>
+                        <option value="english">English</option>
                     </select>
                 </div>
 
@@ -168,8 +194,8 @@
 
         <!-- APP ROW -->
         <div class="row app-row">
-            <img src="img/App_Store_logo.svg" alt="app-store-logo">
-            <img src="img/google_play_logo.svg" alt="google-play-logo">
+            <a href=""><img src="img/App_Store_logo.svg" alt="app-store-logo"></a>
+            <a href=""><img src="img/google_play_logo.svg" alt="google-play-logo"></a>
         </div>
 
         <!-- SEPARATOR -->
@@ -193,7 +219,6 @@
         </div>
     </div>
 </footer>
-
 
 </body>
 </html>
